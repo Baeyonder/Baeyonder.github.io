@@ -224,7 +224,7 @@ option{
 	
 }
 hr.h1{
-	width: 5px;
+	width: 1px;
 	border-radius: 0px;
 	height: 680px;
 	border-radius: 10px;
@@ -262,7 +262,7 @@ label.l1{
 }
 hr.tr{
 	margin: 15px;
-	width: 5px;
+	width: 1px;
 	background: grey;
 	border-radius: 100px;
 	animation: ook 2s;
