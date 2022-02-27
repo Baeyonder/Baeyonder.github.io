@@ -223,7 +223,7 @@ option{
 	display: flex;
 	
 }
-hr.h1{
+/*hr.h1{
 	width: 1px;
 	border-radius: 0px;
 	height: 680px;
@@ -233,7 +233,7 @@ hr.h1{
 	background: grey;
 	animation: ho 2s;
 	
-}
+}*/
 @keyframes ho{
 	0%{height: 0px;}
 	100%{height: 680px;}
@@ -260,7 +260,7 @@ label.l1{
 	flex: 1;
 	font-size:15px;
 }
-hr.tr{
+/*hr.tr{
 	margin: 15px;
 	width: 1px;
 	background: grey;
@@ -268,5 +268,5 @@ hr.tr{
 	animation: ook 2s;
 	height: 670
 	
-}
+}*/
 
