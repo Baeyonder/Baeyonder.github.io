@@ -1,0 +1,274 @@
+*{
+	box-sizing: border-box;
+	
+	
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(32,33,36);
+}
+
+form{
+	display:flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 10px;
+}
+.container{
+	
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+	
+}
+.submit{
+	margin-top:auto;
+	
+}
+
+
+.details{
+	background:;
+	flex:3;
+}
+
+.details>div{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+
+	padding:20px;
+	margin:1em;
+	transition: 0.5s;
+	
+	
+	
+}
+input{
+	flex:3;
+	border-color: #5F6368;
+	border-radius:9px;
+	border-style:solid;
+	border-bottom-width: thick;
+	border-bottom-style: outset; 
+	background:transparent;
+	color:white;
+	font-family: sans-serif;
+	animation: q 2s;
+	transition: 0.5s;
+	padding: 5px;
+	font-style: italic;
+}
+@keyframes q{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+input:hover{
+	background:#5F6368;
+	padding: 5px;
+}
+label{
+	position:relative;
+	flex:1;
+	text-align:right;
+	font-weight: 100;
+	font-style: italic;
+	color:black;
+	font-weight: bold;
+	text-shadow: #5F6368 3px  3px;
+	font-family:Helvetica;
+	padding-right: 5px;
+	font-size:19px;
+	color:white;
+	letter-spacing: 1px;
+	
+	animation-iteration-count: infinite;
+	transition: 0.5s;
+	padding-right: 10px;
+}
+
+.fle:hover, .fle2:hover, .fle3:hover{
+	transform: scale(1.05);
+	
+	
+}
+label:hover{
+	font-size: 30px;
+}
+
+.fle label{
+	animation: my 2s;
+		animation-direction: reverse;
+	
+
+}
+.fle2 label{
+	animation: my2 2s;
+		animation-direction: reverse;
+}
+
+.fle3 label{
+	animation: my3 2s;
+
+	animation-direction: reverse;
+	
+}
+@keyframes my{
+	0%{right:0;}
+	100%{right:80; opacity: 0;}
+}
+@keyframes my2{
+	0%{right:0;}
+	100%{right:80; opacity: 0;}
+}
+@keyframes my3{
+	0%{right:0;}
+	100%{right:80; opacity: 0;}
+	
+	
+}
+
+
+
+
+
+
+.co{
+	background:;
+	
+	flex:1;
+	
+}
+
+.co textarea{
+	position:relative;
+	top:10px;
+	
+}
+
+textarea{
+	border-radius: 10px;
+	background: transparent;
+	border-color:#5F6368;
+	resize:;
+	transition: 0.5s;
+	border-bottom-width: thick;
+	border-bottom-style: inset;
+	margin-bottom: 20;
+	
+}  
+textarea:hover{
+	background:#5F6368;
+
+}
+
+.submit input{
+	width: 100%;
+	height: 40;
+}
+hr.hh{
+	background:grey;
+	border-radius: 100px;
+	width: 400;
+	height: 5px;
+	animation: h 1.5s;
+	
+}
+@keyframes h{
+	0% {width:10px;}
+	100% {width:400px;}
+}
+p.ship{
+	background: none;
+	border-radius: 20px;
+
+	text-align: center;
+
+	 
+	font-family: helvetica;
+	color: White;
+	text-shadow: 3px 3px 5px grey;
+	font-style: ;
+	font-size: 20px;
+	animation: ship 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+}
+/*
+@keyframes ship{
+	0%{background: transparent;}
+	100%{background:none; }
+}
+*/
+
+select{
+	background: transparent;
+	color: white;
+	margin: auto;
+	flex:0.5;
+	text-align: center;
+	font-size: 15px;
+	transition: 0.5s;
+}
+select:hover{
+	font-size:19px;
+}
+option{
+	background: grey;
+}
+.ship2{
+	display: flex;
+	
+}
+hr.h1{
+	width: 5px;
+	border-radius: 0px;
+	height: 680px;
+	border-radius: 10px;
+	margin: 13px;
+	padding: 0px;
+	background: grey;
+	animation: ho 2s;
+	
+}
+@keyframes ho{
+	0%{height: 0px;}
+	100%{height: 680px;}
+}
+
+.payment{
+	display: flex;
+}
+input.ll{
+	flex:0.1;
+	transform:scale(1.5);
+}
+label.l1{
+	flex:1;
+}
+
+.cn{
+	display: flex;
+}
+.cn input.opop{
+	flex:0.1;
+}
+.cn label{
+	flex: 1;
+	font-size:15px;
+}
+hr.tr{
+	margin: 15px;
+	width: 5px;
+	background: grey;
+	border-radius: 100px;
+	animation: ook 2s;
+	height: 670
+	
+}
+@keyframes ook{
+	0% {}
+}
